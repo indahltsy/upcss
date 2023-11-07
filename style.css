@@ -1,34 +1,62 @@
-.tombol-menu {
-    position: absolute;
-    top: 1.7rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 20px;
-}
-
-.tombol-menu .garis {
-    height: 3px;
-    background-color: #3f72af;
-}
-
-@media screen and (max-width: 991.98px) {
-    .logo a {
-        display: inline;
-    }
-    .tombol-menu {
-        display: flex;
-    }
-    nav .menu {
-        display: none;
-    }
-    nav .menu.active {
-        display: flex;
-    }
-    nav ul li {
-        width:100%;
-        border-bottom:1px solid #333333;
-    }
-}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    margin: 0;
+  }
+  body {
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    font-size: 100%;
+    margin: 0;
+  }
+  
+  header {
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 200px;
+  }
+  
+  section {
+    padding: px 0;
+  }
+  
+  section#home {
+    background-color: #111;
+  }
+  
+  section#about {
+    background-color: #222;
+  }
+  
+  section#portfolio {
+    background-color: #333;
+  }
+  
+  section#blog {
+    background-color: #444;
+  }
+  
+  section#contact {
+    background-color: #555;
+  }
